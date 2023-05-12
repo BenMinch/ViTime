@@ -43,12 +43,16 @@ While I can't include example fastq reads as they are too large for GitHub, prov
 * **Genome Heatmap**: This is a heatmap of expression (z-score) over time for each genome in your dataset.
 ![alt text](https://github.com/BenMinch/ViTime/blob/main/images/Genome_heatmap.png)
 * **Order abundance**: This is a stacked barplot showing proportion of order level abundance over time.
+![alt text](https://github.com/BenMinch/ViTime/blob/main/images/Order_abundance_over_time.png)
 * **Genome Clusters**: Genomes are put into 5 clusters based on expression patterns and these cluster memberships are presented in this figure as well as a representative expression profile for one member in that cluster. 
-* **Celebrity Membership**: Genomes are given celebrity scores based on how many times they "boom and bust" over the course of the experiment. Counts of each celebrity score are shown as well as graphs of a representative from each score. 
+![alt text](https://github.com/BenMinch/ViTime/blob/main/images/Genome_cluster_membership.png)
+* **Celebrity Membership**: Genomes are given celebrity scores based on how many times they "boom and bust" over the course of the experiment. Counts of each celebrity score are shown as well as graphs of a representative from each score.
+ ![alt text](https://github.com/BenMinch/ViTime/blob/main/images/Celebrity_membership.png)
 * **Environmental Correlation barplot**: A plot of correlation coefficients for total correlation and per-cluster correlation with starts for significant p-values. 
+ ![alt text](https://github.com/BenMinch/ViTime/blob/main/images/Environmental_correlations_cluster.png)
 * **Environmental Correlation linegraphs**: Linegraphs with linear regression lines are plotted for each environmental variable vs abundance.
+ ![alt text](https://github.com/BenMinch/ViTime/blob/main/images/Environmental_correlations_total.png)
 * **Categories**: Genomes are put into categories based on abundance patterns. A barplot of the number that fall into each category can be found in the Categorize folder.
-
 # Under the Hood/FAQ
 
 ### What if I have multiple observations for the same day/timepoint?
