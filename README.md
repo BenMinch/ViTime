@@ -1,5 +1,6 @@
-# ViTime: Visualizing Virus Timeseries Data
 ![alt text](https://github.com/BenMinch/ViTime/blob/main/images/vitime.png)
+# ViTime: Visualizing Virus Timeseries Data
+
 A reproducable, simple, and powerful pipeline for analyzing viral time-series data. ViTime takes an input of genomes or marker genes and a folder of raw reads corresponding to different sampling days, and outputs dozens of helpful statistics and graphs to see how your populations are changing over time. ViTime will automatically show taxonomy informed patterns, abundance clusters in your data, and correlations with inputted environmental parameters. It is super easy to use and should make timeseries analysis (something that is usually a pain in the butt due to managing a large library of reads) very easy. 
 
 ViTime was made with virus time series data in mind, but here's a secret, it doesn't just work with viruses. As long as you input a list of genomes and proper taxonomy, this tool could be used for literally anything (prokaryotes, eukaryotes, fungi, fish, etc.). 
