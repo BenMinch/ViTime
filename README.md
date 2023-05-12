@@ -41,10 +41,12 @@ While I can't include example fastq reads as they are too large for GitHub, prov
 ..* **Environmental_correlations.csv**: Two csvs representing correlation coefficients and p-values for all environmental variables and total genomes as well as individual clusters (mentioned later)
 2. **Graphs**
 ..* **Genome Heatmap**: This is a heatmap of expression (z-score) over time for each genome in your dataset.
+![alt text](https://github.com/BenMinch/ViTime/tree/main/images)
 ..* **Order abundance**: This is a stacked barplot showing proportion of order level abundance over time.
 ..* **Genome Clusters**: Genomes are put into 5 clusters based on expression patterns and these cluster memberships are presented in this figure as well as a representative expression profile for one member in that cluster. 
 ..* **Celebrity Membership**: Genomes are given celebrity scores based on how many times they "boom and bust" over the course of the experiment. Counts of each celebrity score are shown as well as graphs of a representative from each score. 
 ..* **Environmental Correlation barplot**: A plot of correlation coefficients for total correlation and per-cluster correlation with starts for significant p-values. 
+..* **Environmental Correlation linegraphs**: Linegraphs with linear regression lines are plotted for each environmental variable vs abundance.
 ..* **Categories**: Genomes are put into categories based on abundance patterns. A barplot of the number that fall into each category can be found in the Categorize folder.
 
 # Under the Hood/FAQ
